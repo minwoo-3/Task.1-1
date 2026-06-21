@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://${RDB_HOST:localhost}:${RDB_PORT:3306}/${RDB_NAME:task_1_1}
     username: ${RDB_USER:root}
-    password: ${RDB_PASSWORD:123456}
+    password: ${RDB_PASSWORD:}
   jpa:
     hibernate:
       ddl-auto: ${DDL_AUTO:update}
